@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+}
+
+.glow {
+    text-shadow: 0 0 15px #fff;
+}
+
+.button {
+    all: unset;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 14px 52px;
+    background: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+    transition: box-shadow 0.25s ease-in;
+}
+
+.button:hover {
+    box-shadow: 0 0 30px #fff;
+}
